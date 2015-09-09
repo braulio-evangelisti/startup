@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Sign up</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<meta name="author" content="Braulio Evangelisti"/>
+		<meta name="description" content="Sign up form example">
+	</head>
+	<body>
+		<header>
+			<h1>Sign up form!</h1>
+		</header>
+		<section>
+			<h2>Fill the form to sign up:</h2>
+			<form action="signin.php" method="POST">
+				<fieldset>
+					<legend>Sign up details</legend>
+					<div>
+						<label for="fname">First Name:</label><br>
+						<input type="text" name="fname" id="fname" value="" placeholder="ex: John" required autofocus />
+					</div>
+					
+					<div>
+						<label for="lname">Last Name:</label><br>
+						<input type="text" name="lname" id="lname" value="" placeholder="ex: Doe" required />
+					</div>
+					
+					<div>
+						<label for="email">Email:</label><br>
+						<input type="email" name="email" id="email" value="" placeholder="ex: user@server.com" required />
+					</div>
+
+					<div>
+						<label for="birthday">Birthday:</label><br>
+						<input type="date" name="birthday" id="birthday" value="" required />
+					</div>
+					
+					<div>
+						<label for="sport">Sport:</label><br>
+						<select name="sport" id="sport" required >
+							<option value="">Select your favourite sport</option>
+							<option value="football">Football</option>
+							<option value="basketball">Basketball</option>
+							<option value="rugby">Rugby</option>
+							<option value="jockey">Jockey</option> 
+						</select>
+					</div>
+
+					<div>
+						<label for="bio">Bio:</label><br>
+						<textarea name="bio" id="bio" cols="22" rows="5" required ></textarea>
+					</div>
+
+					<div>
+						<input type="reset" value="Clear" />
+						<input type="submit" value="Submit" />
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</body>
+</html>

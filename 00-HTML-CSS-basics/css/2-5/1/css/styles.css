@@ -1,0 +1,52 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*[class$='r'] {
+	background-color: magenta;
+}
+
+*[class*='a']:not([class$='r']) {
+	background-color: blue;
+}
+
+html {
+	font-weight: 900;
+}
+
+.content {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px 20px;
+	vertical-align: top;
+	width: 50%;
+}
+
+.footer {
+	font-size: 10px;
+	padding: 10px 20px;
+}
+
+.header {
+	font-size: 46px;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.navigation {
+	font-size: 12px;
+	display: inline-block;
+	padding: 10px 20px;
+	vertical-align: top;
+	width: 25%;
+}
+
+.sidebar {
+	font-size: 10px;
+	display: inline-block;
+	padding: 10px 20px;
+	vertical-align: top;
+	width: 25%;
+}

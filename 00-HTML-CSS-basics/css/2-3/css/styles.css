@@ -1,0 +1,35 @@
+*[class$='r'] {
+	background-color: magenta;
+}
+
+*[class*='a']:not([class$='r']) {
+	background-color: blue;
+}
+
+html {
+	font-weight: 900;
+}
+
+.content {
+	font-size: 14px;
+}
+
+.footer, .sidebar {
+	font-size: 10px;
+}
+
+.header {
+	font-size: 46px;
+}
+
+.navigation {
+	font-size: 12px;
+}
+
+.oh-no-inline-styles {
+	background-color: red;
+}
+
+.oh-no-inline-styles {
+	background-color: green; /*override red color*/
+}

@@ -1,0 +1,15 @@
+html 
+{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+header, footer, aside, nav 
+{ 
+	background-color: #435098; 
+}
+
+header, footer
+{
+	text-align: center;
+}
