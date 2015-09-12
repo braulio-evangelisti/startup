@@ -16,37 +16,41 @@ html {
 	font-weight: 900;
 }
 
+.content,
+.footer,
+.header,
+.navigation,
+.sidebar {
+	padding: 10px 20px;
+}
+
+.content,
+.navigation,
+.sidebar {
+	display: inline-block;
+	vertical-align: top;
+}
+
 .content {
 	font-size: 14px;
-	display: inline-block;
-	padding: 10px 20px;
-	vertical-align: top;
 	width: 50%;
 }
 
 .footer {
 	font-size: 10px;
-	padding: 10px 20px;
 }
 
 .header {
 	font-size: 46px;
-	padding: 10px 20px;
 	width: 100%;
 }
 
 .navigation {
 	font-size: 12px;
-	display: inline-block;
-	padding: 10px 20px;
-	vertical-align: top;
 	width: 25%;
 }
 
 .sidebar {
 	font-size: 10px;
-	display: inline-block;
-	padding: 10px 20px;
-	vertical-align: top;
 	width: 25%;
 }

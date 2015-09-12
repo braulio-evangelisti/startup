@@ -39,7 +39,7 @@
 
 @media (max-width: 479px){
   .column.two-thirds { 
-      width: 100%; 
+    width: 100%; 
   }
   .column.third {
     width: 100%;

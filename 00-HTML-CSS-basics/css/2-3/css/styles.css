@@ -14,7 +14,8 @@ html {
 	font-size: 14px;
 }
 
-.footer, .sidebar {
+.footer,
+.sidebar {
 	font-size: 10px;
 }
 
@@ -26,10 +27,15 @@ html {
 	font-size: 12px;
 }
 
-.oh-no-inline-styles {
-	background-color: red;
+/* 2.3.6: I can add weight overwriting the css selectors below the previous declaration */
+.content,
+.footer,
+.sidebar, 
+.header, 
+.navigation {
+	font-size: 54px; 
 }
 
 .oh-no-inline-styles {
-	background-color: green; /*override red color*/
+	background-color: green !important; /* 2.3.7: Override the inline definition. I confused the problem statement xD */
 }

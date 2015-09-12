@@ -5,7 +5,7 @@ a {
 }
 
 h3 {
-	margin: 5px 0px;
+	margin: 5px 0;
 }
 
 img {
@@ -32,11 +32,11 @@ figure {
 
 figcaption {
 	background-color: rgba(255,255,255,0.9);
-	left: 0px;
+	left: 0;
 	opacity: 0;
 	padding: 10px 0;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	width: 100%;
 
 	-webkit-transition: all 0.3s ease;                  
@@ -47,7 +47,7 @@ figcaption {
 }
 
 figcaption a, figcaption h3 {
-	margin: 0px 20px 5px 20px;
+	margin: 0 20px 5px 20px;
 }
 
 figure:hover figcaption {

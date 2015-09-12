@@ -1,7 +1,7 @@
 *, *:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
 }
 
 .container {
@@ -10,17 +10,34 @@
 }
 
 .column {
-    float: left;
-    padding: 10px;
-    position: relative;
+  float: left;
+  padding: 10px;
+  position: relative;
 }
   
-.column.full { width: 100%; }
-.column.two-thirds { width: 66.7%; }
-.column.half { width: 50%; }
-.column.third { width: 33.3%; }
-.column.fourth { width: 25%; }
-.column.flow-opposite { float: right; }
+.column.full { 
+  width: 100%; 
+}
+
+.column.two-thirds { 
+  width: 66.7%; 
+}
+
+.column.half { 
+  width: 50%; 
+}
+
+.column.third { 
+  width: 33.3%; 
+}
+
+.column.fourth { 
+  width: 25%; 
+}
+
+.column.flow-opposite { 
+  float: right; 
+}
 
 .clearfix:before,
 .clearfix:after {
