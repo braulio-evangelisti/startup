@@ -10,14 +10,14 @@ $(document).ready(function() {
 		alias = $('.alias').val();
 
 		$.ajax({
-   url: "http://bootcamp.aws.af.cm/welcome/" + alias,
+   url: 'http://bootcamp.aws.af.cm/welcome/' + alias,
    type: 'GET',
-   dataType: "json",
+   dataType: 'json',
    success: function( data ) {
    	if(data.error) {
-  			$('#response').html(data.error);
+  			$('.response').html(data.error);
    	} else {
-   		$('#response').html(data.response);
+   		$('.response').html(data.response);
    	}
    }
 		});

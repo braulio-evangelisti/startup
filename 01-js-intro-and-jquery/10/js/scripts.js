@@ -10,11 +10,10 @@ $(document).ready(function() {
 	};
 
 	var highlightName = function() {
-		name = $('#response').html();
-		name = name.substring(8);
+		name = $('#response').text().substring(8);
 		nameLength = name.length-1;
 		name = name.substring(0,nameLength);
-		lastChange = $('#response').html().replace( name, "<strong class='bold'>" + name + "</strong>" );
+		lastChange = $('#response').html().replace( name, '<strong class="bold">' + name + '</strong>' );
 		$('#response').html(lastChange);
 	};
 	
@@ -22,9 +21,9 @@ $(document).ready(function() {
 		alias = $('.alias').val();
 
 		$.ajax({
-   url: "http://bootcamp.aws.af.cm/welcome/" + alias,
+   url: 'http://bootcamp.aws.af.cm/welcome/' + alias,
    type: 'GET',
-   dataType: "json",
+   dataType: 'json',
    success: function( data, status, xhr ) {
     console.log(status);
    	if(data.error) {
