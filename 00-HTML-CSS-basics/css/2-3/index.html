@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>2.3 Specificity</title>
+        <meta name="author" content="Braulio Evangelisti" />
+        <meta name="description" content="How rules override one each others" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header class="header">
+            HEADER
+        </header>
+        
+        <nav class="navigation">
+            NAVIGATION
+        </nav>
+
+        <section class="content">
+            <header class="oh-no-inline-styles" style="background:red;">
+                HEADER SECTION
+            </header>
+            <article>
+                ARTICLE
+            </article>
+            <footer class="footer">
+                FOOTER SECTION
+            </footer>
+        </section>
+
+        <aside class="sidebar">
+            ASIDE    
+        </aside>
+        
+        <footer class="footer">
+            FOOTER    
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.min.js"><\/script>')</script>
+    </body>
+</html>

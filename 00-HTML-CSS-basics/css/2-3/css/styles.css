@@ -1,0 +1,41 @@
+*[class$='r'] {
+	background-color: magenta;
+}
+
+*[class*='a']:not([class$='r']) {
+	background-color: blue;
+}
+
+body {
+	font-weight: 900;
+}
+
+.content {
+	font-size: 14px;
+}
+
+.footer,
+.sidebar {
+	font-size: 10px;
+}
+
+.header {
+	font-size: 46px;
+}
+
+.navigation {
+	font-size: 12px;
+}
+
+/* 2.3.6: I can add weight overwriting the css selectors below the previous declaration */
+.content,
+.footer,
+.sidebar, 
+.header, 
+.navigation {
+	font-size: 54px; 
+}
+
+.oh-no-inline-styles {
+	background-color: green !important; /* 2.3.7: Override the inline definition. I confused the problem statement xD */
+}

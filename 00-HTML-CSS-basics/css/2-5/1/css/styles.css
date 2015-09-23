@@ -1,0 +1,56 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*[class$='r'] {
+	background-color: magenta;
+}
+
+*[class*='a']:not([class$='r']) {
+	background-color: blue;
+}
+
+html {
+	font-weight: 900;
+}
+
+.content,
+.footer,
+.header,
+.navigation,
+.sidebar {
+	padding: 10px 20px;
+}
+
+.content,
+.navigation,
+.sidebar {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content {
+	font-size: 14px;
+	width: 50%;
+}
+
+.footer {
+	font-size: 10px;
+}
+
+.header {
+	font-size: 46px;
+	width: 100%;
+}
+
+.navigation {
+	font-size: 12px;
+	width: 25%;
+}
+
+.sidebar {
+	font-size: 10px;
+	width: 25%;
+}
