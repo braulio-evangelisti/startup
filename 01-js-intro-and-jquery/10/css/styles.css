@@ -1,0 +1,16 @@
+.bold {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.error {
+	color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+section {
+	text-align: center;
+}

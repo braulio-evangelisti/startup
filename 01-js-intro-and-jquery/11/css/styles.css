@@ -1,0 +1,36 @@
+.album {
+	float: left;
+	min-height: 150px;
+	width: 50%;
+}
+
+.bold {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.cover {
+	float: left;
+ margin-right: 10px;
+}
+
+.error {
+	color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+.title {
+	min-height: 36px;
+}
